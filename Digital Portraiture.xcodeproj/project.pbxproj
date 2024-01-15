@@ -1,0 +1,971 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E42F5B382B558D7A004DACE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42F5B372B558D7A004DACE2 /* AppDelegate.swift */; };
+		E42F5B3A2B558D7A004DACE2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42F5B392B558D7A004DACE2 /* SceneDelegate.swift */; };
+		E42F5B3D2B558D7A004DACE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E42F5B3B2B558D7A004DACE2 /* LaunchScreen.storyboard */; };
+		E42F5B402B558D7A004DACE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E42F5B3E2B558D7A004DACE2 /* Main.storyboard */; };
+		E42F5B492B558D7A004DACE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42F5B482B558D7A004DACE2 /* AppDelegate.swift */; };
+		E42F5B4C2B558D7A004DACE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E42F5B4A2B558D7A004DACE2 /* Main.storyboard */; };
+		E42F5B532B558D7A004DACE2 /* Digital Portraiture Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E42F5B522B558D7A004DACE2 /* Digital Portraiture Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E42F5B5D2B558D7A004DACE2 /* Digital Portraiture Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E42F5B5C2B558D7A004DACE2 /* Digital Portraiture Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E42F5B632B558D7A004DACE2 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = E42F5B1E2B558D76004DACE2 /* Main.html */; };
+		E42F5B642B558D7A004DACE2 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = E42F5B1E2B558D76004DACE2 /* Main.html */; };
+		E42F5B652B558D7A004DACE2 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E42F5B202B558D76004DACE2 /* Icon.png */; };
+		E42F5B662B558D7A004DACE2 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E42F5B202B558D76004DACE2 /* Icon.png */; };
+		E42F5B672B558D7A004DACE2 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = E42F5B212B558D76004DACE2 /* Style.css */; };
+		E42F5B682B558D7A004DACE2 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = E42F5B212B558D76004DACE2 /* Style.css */; };
+		E42F5B692B558D7A004DACE2 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = E42F5B222B558D76004DACE2 /* Script.js */; };
+		E42F5B6A2B558D7A004DACE2 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = E42F5B222B558D76004DACE2 /* Script.js */; };
+		E42F5B6B2B558D7A004DACE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42F5B232B558D76004DACE2 /* ViewController.swift */; };
+		E42F5B6C2B558D7A004DACE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42F5B232B558D76004DACE2 /* ViewController.swift */; };
+		E42F5B6D2B558D7A004DACE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E42F5B242B558D7A004DACE2 /* Assets.xcassets */; };
+		E42F5B6E2B558D7A004DACE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E42F5B242B558D7A004DACE2 /* Assets.xcassets */; };
+		E42F5B6F2B558D7A004DACE2 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42F5B262B558D7A004DACE2 /* SafariWebExtensionHandler.swift */; };
+		E42F5B702B558D7A004DACE2 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42F5B262B558D7A004DACE2 /* SafariWebExtensionHandler.swift */; };
+		E42F5B712B558D7A004DACE2 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = E42F5B282B558D7A004DACE2 /* _locales */; };
+		E42F5B722B558D7A004DACE2 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = E42F5B282B558D7A004DACE2 /* _locales */; };
+		E42F5B732B558D7A004DACE2 /* images in Resources */ = {isa = PBXBuildFile; fileRef = E42F5B292B558D7A004DACE2 /* images */; };
+		E42F5B742B558D7A004DACE2 /* images in Resources */ = {isa = PBXBuildFile; fileRef = E42F5B292B558D7A004DACE2 /* images */; };
+		E42F5B752B558D7A004DACE2 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = E42F5B2A2B558D7A004DACE2 /* manifest.json */; };
+		E42F5B762B558D7A004DACE2 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = E42F5B2A2B558D7A004DACE2 /* manifest.json */; };
+		E42F5B772B558D7A004DACE2 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = E42F5B2B2B558D7A004DACE2 /* background.js */; };
+		E42F5B782B558D7A004DACE2 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = E42F5B2B2B558D7A004DACE2 /* background.js */; };
+		E42F5B792B558D7A004DACE2 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = E42F5B2C2B558D7A004DACE2 /* content.js */; };
+		E42F5B7A2B558D7A004DACE2 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = E42F5B2C2B558D7A004DACE2 /* content.js */; };
+		E42F5B7B2B558D7A004DACE2 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = E42F5B2D2B558D7A004DACE2 /* popup.html */; };
+		E42F5B7C2B558D7A004DACE2 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = E42F5B2D2B558D7A004DACE2 /* popup.html */; };
+		E42F5B7D2B558D7A004DACE2 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = E42F5B2E2B558D7A004DACE2 /* popup.css */; };
+		E42F5B7E2B558D7A004DACE2 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = E42F5B2E2B558D7A004DACE2 /* popup.css */; };
+		E42F5B7F2B558D7A004DACE2 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = E42F5B2F2B558D7A004DACE2 /* popup.js */; };
+		E42F5B802B558D7A004DACE2 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = E42F5B2F2B558D7A004DACE2 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E42F5B542B558D7A004DACE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E42F5B182B558D75004DACE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E42F5B512B558D7A004DACE2;
+			remoteInfo = "Digital Portraiture Extension (iOS)";
+		};
+		E42F5B5E2B558D7A004DACE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E42F5B182B558D75004DACE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E42F5B5B2B558D7A004DACE2;
+			remoteInfo = "Digital Portraiture Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E42F5B862B558D7A004DACE2 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E42F5B532B558D7A004DACE2 /* Digital Portraiture Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42F5B8D2B558D7A004DACE2 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E42F5B5D2B558D7A004DACE2 /* Digital Portraiture Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E42F5B1F2B558D76004DACE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		E42F5B202B558D76004DACE2 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		E42F5B212B558D76004DACE2 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		E42F5B222B558D76004DACE2 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		E42F5B232B558D76004DACE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E42F5B242B558D7A004DACE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E42F5B262B558D7A004DACE2 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		E42F5B282B558D7A004DACE2 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		E42F5B292B558D7A004DACE2 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		E42F5B2A2B558D7A004DACE2 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		E42F5B2B2B558D7A004DACE2 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		E42F5B2C2B558D7A004DACE2 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		E42F5B2D2B558D7A004DACE2 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		E42F5B2E2B558D7A004DACE2 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		E42F5B2F2B558D7A004DACE2 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		E42F5B342B558D7A004DACE2 /* Digital Portraiture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Digital Portraiture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E42F5B372B558D7A004DACE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E42F5B392B558D7A004DACE2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E42F5B3C2B558D7A004DACE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E42F5B3F2B558D7A004DACE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E42F5B412B558D7A004DACE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E42F5B462B558D7A004DACE2 /* Digital Portraiture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Digital Portraiture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E42F5B482B558D7A004DACE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E42F5B4B2B558D7A004DACE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E42F5B4D2B558D7A004DACE2 /* Digital Portraiture.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Digital Portraiture.entitlements"; sourceTree = "<group>"; };
+		E42F5B522B558D7A004DACE2 /* Digital Portraiture Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Digital Portraiture Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E42F5B572B558D7A004DACE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E42F5B5C2B558D7A004DACE2 /* Digital Portraiture Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Digital Portraiture Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E42F5B612B558D7A004DACE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E42F5B622B558D7A004DACE2 /* Digital Portraiture.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Digital Portraiture.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E42F5B312B558D7A004DACE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42F5B432B558D7A004DACE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42F5B4F2B558D7A004DACE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42F5B592B558D7A004DACE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E42F5B172B558D75004DACE2 = {
+			isa = PBXGroup;
+			children = (
+				E42F5B1C2B558D76004DACE2 /* Shared (App) */,
+				E42F5B252B558D7A004DACE2 /* Shared (Extension) */,
+				E42F5B362B558D7A004DACE2 /* iOS (App) */,
+				E42F5B472B558D7A004DACE2 /* macOS (App) */,
+				E42F5B562B558D7A004DACE2 /* iOS (Extension) */,
+				E42F5B602B558D7A004DACE2 /* macOS (Extension) */,
+				E42F5B352B558D7A004DACE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E42F5B1C2B558D76004DACE2 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				E42F5B232B558D76004DACE2 /* ViewController.swift */,
+				E42F5B242B558D7A004DACE2 /* Assets.xcassets */,
+				E42F5B1D2B558D76004DACE2 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		E42F5B1D2B558D76004DACE2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E42F5B1E2B558D76004DACE2 /* Main.html */,
+				E42F5B202B558D76004DACE2 /* Icon.png */,
+				E42F5B212B558D76004DACE2 /* Style.css */,
+				E42F5B222B558D76004DACE2 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E42F5B252B558D7A004DACE2 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				E42F5B262B558D7A004DACE2 /* SafariWebExtensionHandler.swift */,
+				E42F5B272B558D7A004DACE2 /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		E42F5B272B558D7A004DACE2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E42F5B282B558D7A004DACE2 /* _locales */,
+				E42F5B292B558D7A004DACE2 /* images */,
+				E42F5B2A2B558D7A004DACE2 /* manifest.json */,
+				E42F5B2B2B558D7A004DACE2 /* background.js */,
+				E42F5B2C2B558D7A004DACE2 /* content.js */,
+				E42F5B2D2B558D7A004DACE2 /* popup.html */,
+				E42F5B2E2B558D7A004DACE2 /* popup.css */,
+				E42F5B2F2B558D7A004DACE2 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E42F5B352B558D7A004DACE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E42F5B342B558D7A004DACE2 /* Digital Portraiture.app */,
+				E42F5B462B558D7A004DACE2 /* Digital Portraiture.app */,
+				E42F5B522B558D7A004DACE2 /* Digital Portraiture Extension.appex */,
+				E42F5B5C2B558D7A004DACE2 /* Digital Portraiture Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E42F5B362B558D7A004DACE2 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				E42F5B372B558D7A004DACE2 /* AppDelegate.swift */,
+				E42F5B392B558D7A004DACE2 /* SceneDelegate.swift */,
+				E42F5B3B2B558D7A004DACE2 /* LaunchScreen.storyboard */,
+				E42F5B3E2B558D7A004DACE2 /* Main.storyboard */,
+				E42F5B412B558D7A004DACE2 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		E42F5B472B558D7A004DACE2 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				E42F5B482B558D7A004DACE2 /* AppDelegate.swift */,
+				E42F5B4A2B558D7A004DACE2 /* Main.storyboard */,
+				E42F5B4D2B558D7A004DACE2 /* Digital Portraiture.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		E42F5B562B558D7A004DACE2 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				E42F5B572B558D7A004DACE2 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		E42F5B602B558D7A004DACE2 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				E42F5B612B558D7A004DACE2 /* Info.plist */,
+				E42F5B622B558D7A004DACE2 /* Digital Portraiture.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E42F5B332B558D7A004DACE2 /* Digital Portraiture (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E42F5B872B558D7A004DACE2 /* Build configuration list for PBXNativeTarget "Digital Portraiture (iOS)" */;
+			buildPhases = (
+				E42F5B302B558D7A004DACE2 /* Sources */,
+				E42F5B312B558D7A004DACE2 /* Frameworks */,
+				E42F5B322B558D7A004DACE2 /* Resources */,
+				E42F5B862B558D7A004DACE2 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E42F5B552B558D7A004DACE2 /* PBXTargetDependency */,
+			);
+			name = "Digital Portraiture (iOS)";
+			productName = "Digital Portraiture (iOS)";
+			productReference = E42F5B342B558D7A004DACE2 /* Digital Portraiture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E42F5B452B558D7A004DACE2 /* Digital Portraiture (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E42F5B8E2B558D7A004DACE2 /* Build configuration list for PBXNativeTarget "Digital Portraiture (macOS)" */;
+			buildPhases = (
+				E42F5B422B558D7A004DACE2 /* Sources */,
+				E42F5B432B558D7A004DACE2 /* Frameworks */,
+				E42F5B442B558D7A004DACE2 /* Resources */,
+				E42F5B8D2B558D7A004DACE2 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E42F5B5F2B558D7A004DACE2 /* PBXTargetDependency */,
+			);
+			name = "Digital Portraiture (macOS)";
+			productName = "Digital Portraiture (macOS)";
+			productReference = E42F5B462B558D7A004DACE2 /* Digital Portraiture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E42F5B512B558D7A004DACE2 /* Digital Portraiture Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E42F5B832B558D7A004DACE2 /* Build configuration list for PBXNativeTarget "Digital Portraiture Extension (iOS)" */;
+			buildPhases = (
+				E42F5B4E2B558D7A004DACE2 /* Sources */,
+				E42F5B4F2B558D7A004DACE2 /* Frameworks */,
+				E42F5B502B558D7A004DACE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Digital Portraiture Extension (iOS)";
+			productName = "Digital Portraiture Extension (iOS)";
+			productReference = E42F5B522B558D7A004DACE2 /* Digital Portraiture Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		E42F5B5B2B558D7A004DACE2 /* Digital Portraiture Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E42F5B8A2B558D7A004DACE2 /* Build configuration list for PBXNativeTarget "Digital Portraiture Extension (macOS)" */;
+			buildPhases = (
+				E42F5B582B558D7A004DACE2 /* Sources */,
+				E42F5B592B558D7A004DACE2 /* Frameworks */,
+				E42F5B5A2B558D7A004DACE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Digital Portraiture Extension (macOS)";
+			productName = "Digital Portraiture Extension (macOS)";
+			productReference = E42F5B5C2B558D7A004DACE2 /* Digital Portraiture Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E42F5B182B558D75004DACE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					E42F5B332B558D7A004DACE2 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					E42F5B452B558D7A004DACE2 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					E42F5B512B558D7A004DACE2 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					E42F5B5B2B558D7A004DACE2 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = E42F5B1B2B558D75004DACE2 /* Build configuration list for PBXProject "Digital Portraiture" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E42F5B172B558D75004DACE2;
+			productRefGroup = E42F5B352B558D7A004DACE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E42F5B332B558D7A004DACE2 /* Digital Portraiture (iOS) */,
+				E42F5B452B558D7A004DACE2 /* Digital Portraiture (macOS) */,
+				E42F5B512B558D7A004DACE2 /* Digital Portraiture Extension (iOS) */,
+				E42F5B5B2B558D7A004DACE2 /* Digital Portraiture Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E42F5B322B558D7A004DACE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E42F5B652B558D7A004DACE2 /* Icon.png in Resources */,
+				E42F5B3D2B558D7A004DACE2 /* LaunchScreen.storyboard in Resources */,
+				E42F5B632B558D7A004DACE2 /* Main.html in Resources */,
+				E42F5B692B558D7A004DACE2 /* Script.js in Resources */,
+				E42F5B6D2B558D7A004DACE2 /* Assets.xcassets in Resources */,
+				E42F5B402B558D7A004DACE2 /* Main.storyboard in Resources */,
+				E42F5B672B558D7A004DACE2 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42F5B442B558D7A004DACE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E42F5B662B558D7A004DACE2 /* Icon.png in Resources */,
+				E42F5B682B558D7A004DACE2 /* Style.css in Resources */,
+				E42F5B4C2B558D7A004DACE2 /* Main.storyboard in Resources */,
+				E42F5B6A2B558D7A004DACE2 /* Script.js in Resources */,
+				E42F5B6E2B558D7A004DACE2 /* Assets.xcassets in Resources */,
+				E42F5B642B558D7A004DACE2 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42F5B502B558D7A004DACE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E42F5B772B558D7A004DACE2 /* background.js in Resources */,
+				E42F5B7D2B558D7A004DACE2 /* popup.css in Resources */,
+				E42F5B7B2B558D7A004DACE2 /* popup.html in Resources */,
+				E42F5B732B558D7A004DACE2 /* images in Resources */,
+				E42F5B752B558D7A004DACE2 /* manifest.json in Resources */,
+				E42F5B712B558D7A004DACE2 /* _locales in Resources */,
+				E42F5B792B558D7A004DACE2 /* content.js in Resources */,
+				E42F5B7F2B558D7A004DACE2 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42F5B5A2B558D7A004DACE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E42F5B782B558D7A004DACE2 /* background.js in Resources */,
+				E42F5B7E2B558D7A004DACE2 /* popup.css in Resources */,
+				E42F5B7C2B558D7A004DACE2 /* popup.html in Resources */,
+				E42F5B742B558D7A004DACE2 /* images in Resources */,
+				E42F5B762B558D7A004DACE2 /* manifest.json in Resources */,
+				E42F5B722B558D7A004DACE2 /* _locales in Resources */,
+				E42F5B7A2B558D7A004DACE2 /* content.js in Resources */,
+				E42F5B802B558D7A004DACE2 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E42F5B302B558D7A004DACE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E42F5B6B2B558D7A004DACE2 /* ViewController.swift in Sources */,
+				E42F5B382B558D7A004DACE2 /* AppDelegate.swift in Sources */,
+				E42F5B3A2B558D7A004DACE2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42F5B422B558D7A004DACE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E42F5B6C2B558D7A004DACE2 /* ViewController.swift in Sources */,
+				E42F5B492B558D7A004DACE2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42F5B4E2B558D7A004DACE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E42F5B6F2B558D7A004DACE2 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42F5B582B558D7A004DACE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E42F5B702B558D7A004DACE2 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E42F5B552B558D7A004DACE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E42F5B512B558D7A004DACE2 /* Digital Portraiture Extension (iOS) */;
+			targetProxy = E42F5B542B558D7A004DACE2 /* PBXContainerItemProxy */;
+		};
+		E42F5B5F2B558D7A004DACE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E42F5B5B2B558D7A004DACE2 /* Digital Portraiture Extension (macOS) */;
+			targetProxy = E42F5B5E2B558D7A004DACE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E42F5B1E2B558D76004DACE2 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E42F5B1F2B558D76004DACE2 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		E42F5B3B2B558D7A004DACE2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E42F5B3C2B558D7A004DACE2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E42F5B3E2B558D7A004DACE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E42F5B3F2B558D7A004DACE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E42F5B4A2B558D7A004DACE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E42F5B4B2B558D7A004DACE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E42F5B812B558D7A004DACE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E42F5B822B558D7A004DACE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E42F5B842B558D7A004DACE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MWM48938KN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Digital Portraiture Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Digital-Portraiture.Extension";
+				PRODUCT_NAME = "Digital Portraiture Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E42F5B852B558D7A004DACE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MWM48938KN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Digital Portraiture Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Digital-Portraiture.Extension";
+				PRODUCT_NAME = "Digital Portraiture Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E42F5B882B558D7A004DACE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MWM48938KN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Digital Portraiture";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Digital-Portraiture";
+				PRODUCT_NAME = "Digital Portraiture";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E42F5B892B558D7A004DACE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MWM48938KN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Digital Portraiture";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Digital-Portraiture";
+				PRODUCT_NAME = "Digital Portraiture";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E42F5B8B2B558D7A004DACE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Digital Portraiture.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MWM48938KN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Digital Portraiture Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Digital-Portraiture.Extension";
+				PRODUCT_NAME = "Digital Portraiture Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E42F5B8C2B558D7A004DACE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Digital Portraiture.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MWM48938KN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Digital Portraiture Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Digital-Portraiture.Extension";
+				PRODUCT_NAME = "Digital Portraiture Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E42F5B8F2B558D7A004DACE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Digital Portraiture.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MWM48938KN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Digital Portraiture";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Digital-Portraiture";
+				PRODUCT_NAME = "Digital Portraiture";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E42F5B902B558D7A004DACE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Digital Portraiture.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MWM48938KN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Digital Portraiture";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Digital-Portraiture";
+				PRODUCT_NAME = "Digital Portraiture";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E42F5B1B2B558D75004DACE2 /* Build configuration list for PBXProject "Digital Portraiture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E42F5B812B558D7A004DACE2 /* Debug */,
+				E42F5B822B558D7A004DACE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E42F5B832B558D7A004DACE2 /* Build configuration list for PBXNativeTarget "Digital Portraiture Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E42F5B842B558D7A004DACE2 /* Debug */,
+				E42F5B852B558D7A004DACE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E42F5B872B558D7A004DACE2 /* Build configuration list for PBXNativeTarget "Digital Portraiture (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E42F5B882B558D7A004DACE2 /* Debug */,
+				E42F5B892B558D7A004DACE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E42F5B8A2B558D7A004DACE2 /* Build configuration list for PBXNativeTarget "Digital Portraiture Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E42F5B8B2B558D7A004DACE2 /* Debug */,
+				E42F5B8C2B558D7A004DACE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E42F5B8E2B558D7A004DACE2 /* Build configuration list for PBXNativeTarget "Digital Portraiture (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E42F5B8F2B558D7A004DACE2 /* Debug */,
+				E42F5B902B558D7A004DACE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E42F5B182B558D75004DACE2 /* Project object */;
+}
