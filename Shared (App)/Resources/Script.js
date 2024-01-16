@@ -1,4 +1,5 @@
-function show(platform, enabled, useSettingsInsteadOfPreferences) {
+function show(platform, visitsCount, enabled, useSettingsInsteadOfPreferences) {
+    document.getElementsByClassName('url-test')[0].innerText = visitsCount
     document.body.classList.add(`platform-${platform}`);
 
     if (useSettingsInsteadOfPreferences) {
@@ -15,10 +16,23 @@ function show(platform, enabled, useSettingsInsteadOfPreferences) {
         document.body.classList.remove(`state-on`);
         document.body.classList.remove(`state-off`);
     }
+    
+//    urlList.forEach((url) => {
+//        const node = document.createElement("li");
+//        const textnode = document.createTextNode(url);
+//        node.appendChild(textnode);
+//        document.getElementsByClassName("url-list")[0].appendChild(node);
+//    })
 }
 
 function openPreferences() {
     webkit.messageHandlers.controller.postMessage("open-preferences");
 }
 
+function sendMsgToBrowser() {
+    webkit.messageHandlers.controller.postMessage("send-msg-to-browser");
+}
+
 document.querySelector("button.open-preferences").addEventListener("click", openPreferences);
+
+document.querySelector("button.send-msg-to-browser").addEventListener("click", sendMsgToBrowser);
